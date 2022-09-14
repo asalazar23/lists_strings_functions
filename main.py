@@ -167,7 +167,19 @@ print(multiDimen[2][1])
 
 # In[ ]:
 
+avengers = ["hawkeye", "hulk", "iron man", "black panther", "captAmer"]
+guardiansOfGalaxy = ["drax", "rocket racoon", "groot", "starlord", "gamora"]
 
+heroes = avengers + guardiansOfGalaxy
+heroes.append("thor")
+heroes.append("spider-man")
+print(heroes)
+print(heroes.reverse())
+print(heroes)
+
+heroes.remove("gamora")
+print(heroes)
+print(heroes.index("drax"))
 
 
 
