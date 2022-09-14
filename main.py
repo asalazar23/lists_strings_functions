@@ -135,8 +135,12 @@ print(len(newList))
 list = ["nathan", "sam", "mateo", "4", "5", "6"]
 print(list.sort())
 print(list)
-
-
+list.append("nathanial_b")
+print(list)
+avengers = ["hawkeye", "hulk", "iron man", "shang chi", "black panther", "captAmerica"]
+#boxes are numbered starting at 0, and in the box the numbers are like a coordinate. x is 0 and y is 1
+multiDimen = [[3,5], [7,6], [6,3], [8.9]]
+print(multiDimen[2][1])
 
 # In[3]:
 
@@ -164,52 +168,7 @@ print(list)
 # In[ ]:
 
 
-#how do we recognize a function????
 
-#.remove()
-
-
-# In[ ]:
-
-
-#.append()
-
-
-# In[ ]:
-
-
-#.pop()
-
-
-# In[ ]:
-
-
-#.sort()
-#.reverse()
-
-
-# In[2]:
-
-
-#.insert(index, value)
-
-
-# In[ ]:
-
-
-#.index(value)
-
-
-# In[ ]:
-
-
-#.extend()
-
-
-# In[ ]:
-
-
-#.copy()
 
 
 # #Tuples
